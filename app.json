@@ -1,11 +1,11 @@
 {
-    "name": "rgnk wabot",
+    "name": "𝙼𝙰𝚁𝙲",
     "description": "WhatsApp public/user bot",
-    "logo": "",
+    "logo": "https://files.catbox.moe/qt6581.jpg",
     "keywords": ["WhatsApp"],
-    "repository": "https://github.com/souravkl11/raganork-md",
-    "website":   "https://raganork.ml",
-    "success_url": "https://raganork.ml",
+    "repository": "https://github.com/MARC701/MARC-R",
+    "website":   "https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u",
+    "success_url": "https://whatsapp.com/channel/0029Vat4TFC0QeaoLURbP61u",
     "stack": "container",
     "env": {
         "HANDLERS": {
@@ -31,17 +31,17 @@
        "HEROKU_API_KEY": {
             "description": "For updating bot and setting vars remotely",
             "required": true,
-            "value":""
+            "value":"HRKU-ccfcaba6-0210-4046-9021-88ac25073430"
         },
         "HEROKU_APP_NAME": {
             "description": "Exact name which you gave at the top",
             "required": true,
-            "value":""
+            "value":"maaarcc"
         },
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"Raganork pack;Author name"
+            "value":"𝙼𝙰𝚁𝙲;𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -51,12 +51,12 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"𝙼𝙰𝚁𝙲"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"Raganork;Souravkl11;https://i.imgur.com/YchATyT.jpeg"
+            "value":"𝙼𝙰𝚁𝙲;𝐀𝐫𝐬𝐥𝐚𝐧 𝐂𝐡𝐚𝐮𝐝𝐚𝐫𝐲;https://files.catbox.moe/qt6581.jpg"
         },
         "MODE": {
             "description": "Private or public",
@@ -81,7 +81,7 @@
         "ALLOWED": {
             "description": "Country codes allowed by antifake",
             "required": false,
-            "value":"91,48"
+            "value":"92,48"
         },
         "WARN": {
             "description": "Warn limit",
